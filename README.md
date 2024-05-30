@@ -1,6 +1,12 @@
 ## Download GeeUI ROM method:
 
-Download address:
+Download address：
+
+Google Cloud Drive
+
+1. [geeui_rom_part1](https://drive.google.com/drive/folders/1BtG5dVtU6ViLnFinNs7Q0olReg7piRG0?usp=sharing)
+2. [Gee_rom_part2](https://drive.google.com/drive/folders/1jMpU7w59fJboTHNKDcEk6M-aD_vnRbBN?usp=sharing)
+
 
 Download the system as shown in the figure:
 ![rom_zip_list](docs/20240529-032231.jpeg)
@@ -16,10 +22,12 @@ tar -zxvf geeui_android11_20240528.tar.gz
 After decompression, enter the system directory for compilation and execute the following command to compile:
 
 Compiling Android requires high machine configuration requirements:
-64 bit CPU
-16GB physical memory+swap memory
-250GB of free disk space
-Suggest using Ubuntu 18.04 operating system or higher
+
+* 64 bit CPU
+* 16GB physical memory+swap memory
+* 250GB of free disk space
+* Suggest using Ubuntu 18.04 operating system or higher
+
 Ubuntu 16.04 or 18.04 software package installation reference:
 ```
 sudo apt-get update
@@ -41,3 +49,4 @@ Compilation completed, the compiled system image update.img can be found in out
 ## Burn
 Please refer to the following article for the burning method. Change the burning package to the image compiled above.
 [Burning method](https://global.letianpai.com/all/?p=1680&v=8528837ceeea)
+
